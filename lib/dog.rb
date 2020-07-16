@@ -19,6 +19,10 @@ class Dog
     end
   end
 
+  def self.clear_all
+    @@all = []
+  end
+  
   def save
     @@all.push(self)
   end
